@@ -3,20 +3,15 @@
 //get the tools we need
 var express = require("express");
 var app = express();
+var morgan=require("morgan");
+
+require("./app/routes.js")(app);
 
 //====Configuration==========
-app.use(express.static(__dirname+"/public"));
+app.use(express.static(__dirname+"/public")); //set public directory
+app.use(morgan('dev'));  //log every request to the console
 
 app.set("view engine", 'ejs');
-
-//===Routes==================
-app.get("/domino", function(req, res){
-  res.render('domino.ejs');
-});
-
-app.get("/",function(req, res) {
-   res.redirect("/domino") 
-});
 
 
 //===start things up==========
