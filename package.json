@@ -1,0 +1,13 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "start": "server.js",
+  "repository": "https://github.com/jeremy-ward/domino.git",
+  "author": "Jeremy Ward",
+  "dependencies": {
+    "ejs": "^2.3.3",
+    "express": "~3.2.4"
+  }
+}
