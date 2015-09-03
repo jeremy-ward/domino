@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="main-app" ng-controller="main-ctrl">
+    <head>
+        <title>Domino Power!</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+        <script type ="text/javascript" src="js/domino.js"></script>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <div class="container">
+            <div class="row">
+                <div class="well col-md-4">
+                    <form>
+                        <div class="form-group">
+                            <label>Number of Dominoes:</label>
+                            <input type="number" ng-model="numDom" placeholder="Pick total dominoes">
+                        </div>
+                        <button class="btn btn-primary" ng-click="countDomino(numDom)">How Big?&nbsp;&nbsp;<i class="fa fa-arrows-alt"></i></button>
+                    </form>
+                    
+                    <div>
+                        <h3>{{result.height}}</h3>
+                        <h3>{{result.width}}</h3>
+                        <h3>{{result.thick}}</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
