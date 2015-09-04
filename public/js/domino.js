@@ -1,13 +1,5 @@
 //===/public/domino.js
-function sizeCompare(n){
-	var compArr =[
-		{num:7,
-			message:"",
-			img:""},
-		{num:8,
-			message:"",
-			img:""},
-	];
+function sizeCompare(compArr,n){
 	var x ={};
 	compArr.forEach(function(element){
 		if(element.num==n)
@@ -15,7 +7,7 @@ function sizeCompare(n){
 	});
 	return x;
 }
-console.log(sizeCompare(1));
+
 function domino(n){
 	if(n==0)
 		return [2,1,.25]; //height,width,thick of standard domino
@@ -40,8 +32,18 @@ function inchesToFeet(num, decimal){
 
 var app = angular.module('main-app',[]);
 
-app.controller('main-ctrl',function($scope){
+app.controller('main-ctrl',function($scope, $http){
     $scope.result={};
+    
+    //get the comparison JSON file
+    $http.get("/api/domino")
+    	.success(function(data){
+    		$scope.compArr=data;
+    		//console.log(data);
+    	});
+    
+    
+    //function to get domino dimensions and pass them to view
     $scope.countDomino = function(n){
         var x = domino(n);
         $scope.result.height = "Height: "+inchesToFeet(x[0])+" feet";
