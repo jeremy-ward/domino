@@ -34,20 +34,24 @@ var app = angular.module('main-app',[]);
 
 app.controller('main-ctrl',function($scope, $http){
     $scope.result={};
-    
+    var compArr=[];
+    $scope.hidden=true;
     //get the comparison JSON file
     $http.get("/api/domino")
     	.success(function(data){
-    		$scope.compArr=data;
+    		compArr=data;
     		//console.log(data);
     	});
     
     
     //function to get domino dimensions and pass them to view
     $scope.countDomino = function(n){
+    	$scope.result.nar=sizeCompare(compArr,n);
+    	console.log($scope.result.nar);
         var x = domino(n);
         $scope.result.height = "Height: "+inchesToFeet(x[0])+" feet";
         $scope.result.width = "Width: "+inchesToFeet(x[1])+" feet";
         $scope.result.thick = "Thickness: "+inchesToFeet(x[2])+" feet";
+        $scope.hidden=false;
     }
 });

@@ -2,12 +2,16 @@
     {
       "num":7,
       "desc":"This is the first object and it's number is 7",
-      "img": ""
+      "img": "",
+      "name":"Jeremy",
+      "link":"http://jeremyward.xyz"
     },
     {
       "num":8,
       "desc":"",
-      "img": ""
+      "img": "",
+      "name":"",
+      "link":""
     },
     {
       "num":9,

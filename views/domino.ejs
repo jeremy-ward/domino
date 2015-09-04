@@ -7,26 +7,36 @@
         <script type ="text/javascript" src="js/domino.js"></script>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+        <link rel="stylesheet" href="css/domino.css">
     </head>
     <body style="padding: 20px;">
         <div class = "container">
             <div class="jumbotron">
-                <h1>Welcome</h1>
-                <div class="container">
+                <h1 id="main-heading" class="text-center">Domino Power!</h1>
+                <div id="main-container" class="container">
                     <div class="row">
                         <div class="well col-md-4">
-                            <form>
+                            <form class="text-center">
                                 <div class="form-group">
                                     <label>Number of Dominoes:</label>
-                                    <input type="number" ng-model="numDom" placeholder="Pick total dominoes">
+                                    <input type="number" ng-model="numDom" placeholder="Pick at least 7">
                                 </div>
-                                <button class="btn btn-primary" ng-click="countDomino(numDom)">How Big?&nbsp;&nbsp;<i class="fa fa-arrows-alt"></i></button>
+                                    <button id="how-big-btn" class="btn btn-primary" ng-click="countDomino(numDom)">How Big?&nbsp;&nbsp;<i class="fa fa-arrows-alt"></i></button>
                             </form>
                             
                             <div>
                                 <h3>{{result.height}}</h3>
                                 <h3>{{result.width}}</h3>
                                 <h3>{{result.thick}}</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="well" ng-hide="hidden">
+                                <h4 id="big-as">About as big as:  
+                                    <span><a ng-href="{{result.nar.link}}">{{result.nar.name}}</a></span>
+                                </h4>
+                                <p id="result-desc">{{result.nar.desc}}</p>
+                                <img style="float: left;" ng-src="{{result.nar.img}}">
                             </div>
                         </div>
                     </div>
