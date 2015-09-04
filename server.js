@@ -16,5 +16,5 @@ app.set("view engine", 'ejs');
 
 //===start things up==========
 var port = process.env.PORT||8080;
-app.listen(8080);
-console.log("Things go down on port #"+port);
+app.listen(port);
+console.log("Things go down on port "+port);
