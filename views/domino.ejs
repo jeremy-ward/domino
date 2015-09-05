@@ -15,7 +15,7 @@
                 <h1 id="main-heading" class="text-center">Domino Power!</h1>
                 <div id="main-container" class="container">
                     <div class="row">
-                        <div class="well col-md-4">
+                        <div class="well col-md-4" >
                             <form class="text-center">
                                 <div class="form-group">
                                     <label>Number of Dominoes:</label>
@@ -31,12 +31,14 @@
                             </div>
                         </div>
                         <div class="col-md-7">
-                            <div class="well" ng-hide="hidden">
-                                <h4 id="big-as">About as big as:  
-                                    <span><a ng-href="{{result.nar.link}}">{{result.nar.name}}</a></span>
+                            <div class="well" style="height:450px;" ng-hide="hidden">
+                                <h4 id="big-as">About as tall as:  
+                                    <span><a ng-href="{{result.nar.link}}" target="_blank">{{result.nar.name}}</a></span>
                                 </h4>
-                                <p id="result-desc">{{result.nar.desc}}</p>
-                                <img style="float: left;" ng-src="{{result.nar.img}}">
+                                <p id="result-desc">
+                                    <img align="left" style="max-height: 350px; max-width:300px; padding: 20px;" ng-src="{{result.nar.img}}">
+                                    {{result.nar.desc}}
+                                </p>
                             </div>
                         </div>
                     </div>

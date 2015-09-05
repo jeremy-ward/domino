@@ -1,105 +1,141 @@
 [
     {
       "num":7,
-      "desc":"This is the first object and it's number is 7",
-      "img": "",
+      "desc":"Jeremy is not incredible tall, but the 7th domino would be 6ft tall, the same height as Jeremy",
+      "img": "imgs/7.png",
       "name":"Jeremy",
       "link":"http://jeremyward.xyz"
     },
     {
       "num":8,
-      "desc":"",
-      "img": "",
-      "name":"",
-      "link":""
+      "desc":"A regulation basketball hoop stands 10 feet off the ground.  So would the 8th domino!",
+      "img": "imgs/8.png",
+      "name":"Basketball Hoop",
+      "link":"https://en.wikipedia.org/wiki/Basketball"
     },
     {
       "num":9,
-      "desc":"",
-      "img": ""
+      "desc":"Normal two-story houses are about 20ft high, just a little higher than domino number 9",
+      "img": "imgs/9.png",
+      "name":"Two-Story House",
+      "link":"https://en.wikipedia.org/wiki/House"
     },
     {
       "num":10,
       "desc":"",
-      "img": ""
+      "img": "imgs/10.png",
+      "name":"Semi-Trailer",
+      "link":""
     },{
       "num":11,
       "desc":"",
-      "img": ""
+      "img": "imgs/11.png",
+      "name":"McKay-Dee Hospital",
+      "link":""
     },
     {
       "num":12,
       "desc":"",
-      "img": ""
+      "img": "imgs/12.png",
+      "name":"Market Star Building",
+      "link":""
     },
     {
       "num":13,
       "desc":"",
-      "img": ""
+      "img": "imgs/13.png",
+      "name":"Boeing 737",
+      "link":""
     },
     {
       "num":14,
       "desc":"",
-      "img": ""
+      "img": "imgs/14.png",
+      "name":"",
+      "link":""
     },
     {
       "num":15,
       "desc":"",
-      "img": ""
+      "img": "imgs/15.png",
+      "name":"",
+      "link":""
     },
     {
       "num":16,
       "desc":"",
-      "img": ""
+      "img": "imgs/16.png",
+      "name":"",
+      "link":""
     },
     {
       "num":17,
       "desc":"",
-      "img": ""
+      "img": "imgs/17.png",
+      "name":"",
+      "link":""
     },
     {
       "num":18,
       "desc":"",
-      "img": ""
+      "img": "imgs/18.png",
+      "name":"",
+      "link":""
     },
     {
       "num":19,
       "desc":"",
-      "img": ""
+      "img": "imgs/19.png",
+      "name":"",
+      "link":""
     },
     {
       "num":20,
       "desc":"",
-      "img": ""
+      "img": "imgs/20.png",
+      "name":"",
+      "link":""
     },
     {
       "num":21,
       "desc":"",
-      "img": ""
+      "img": "imgs/21.png",
+      "name":"",
+      "link":""
     },
     {
       "num":22,
       "desc":"",
-      "img": ""
+      "img": "imgs/22.png",
+      "name":"",
+      "link":""
     },
     {
       "num":23,
       "desc":"",
-      "img": ""
+      "img": "imgs/23.png",
+      "name":"",
+      "link":""
     },
     {
       "num":24,
       "desc":"",
-      "img": ""
+      "img": "imgs/24.png",
+      "name":"",
+      "link":""
     },
     {
       "num":25,
       "desc":"",
-      "img": ""
+      "img": "imgs/25.png",
+      "name":"",
+      "link":""
     },
     {
       "num":26,
       "desc":"",
-      "img": ""
+      "img": "imgs/26.png",
+      "name":"",
+      "link":""
     }
 ]
