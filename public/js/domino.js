@@ -2,7 +2,7 @@
 function sizeCompare(compArr,n){
 	var x ={};
 	compArr.forEach(function(element){
-		if(element.num==n)
+		if(element.num==n-1)
 			x=element;
 	});
 	return x;
@@ -27,7 +27,8 @@ function numberFormat(num){
 function inchesToFeet(num, decimal){
 	if(isNaN(decimal))
 		decimal=0;
-	return numberFormat((num/12).toFixed(decimal));
+	var x=num>12?(num/12).toFixed(decimal):num.toFixed(decimal);
+	return numberFormat(x)+(num>12?" Feet":" Inches");
 }
 
 var app = angular.module('main-app',[]);
@@ -46,12 +47,20 @@ app.controller('main-ctrl',function($scope, $http){
     
     //function to get domino dimensions and pass them to view
     $scope.countDomino = function(n){
-    	$scope.result.nar=sizeCompare(compArr,n);
-    	console.log($scope.result.nar);
-        var x = domino(n);
-        $scope.result.height = "Height: "+inchesToFeet(x[0])+" feet";
-        $scope.result.width = "Width: "+inchesToFeet(x[1])+" feet";
-        $scope.result.thick = "Thickness: "+inchesToFeet(x[2])+" feet";
-        $scope.hidden=false;
+    	var x = domino(n-1);
+    	if(n>8&&n<28){
+	    	$scope.result.nar=sizeCompare(compArr,n);
+	        $scope.result.height = "Height: "+inchesToFeet(x[0]);
+	        $scope.result.width = "Width: "+inchesToFeet(x[1]);
+	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
+	        $scope.hidden=false;
+    	}
+    	else{
+    		$scope.hidden=true;
+    		$scope.message = "Pick a number between 8 and 27 to see comparison.";
+    		$scope.result.height= "Height: "+inchesToFeet(x[0]);
+    		$scope.result.width = "Width: "+inchesToFeet(x[1]);
+	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
+    	}
     }
 });
