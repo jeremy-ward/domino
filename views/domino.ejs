@@ -20,7 +20,7 @@
                             <form class="text-center">
                                 <div class="form-group">
                                     <label>Number of Dominoes:</label>
-                                    <input type="number" ng-model="numDom" placeholder="Pick between 7 and 26">
+                                    <input class="text-center" type="number" ng-model="numDom" placeholder="Pick a number">
                                 </div>
                                     <button id="how-big-btn" class="btn btn-primary" ng-click="countDomino(numDom)">How Big?&nbsp;&nbsp;<i class="fa fa-arrows-alt"></i></button>
                             </form>
@@ -36,7 +36,8 @@
                             <div class="well"> 
                                 <div ng-show="hidden">
                                     <h4><a href ="https://www.insidescience.org/content/dominoes-more-powerful-you-think/924">Growing Power of a Falling Domino</a></h4>
-                                    <p>Scientist have found that dominoes have enough potential energy that they are able to knock down a domino that is 1.67 times its own size.  This is an illustration that shows how big the dominoes would be.  <br><br><b>Pick a domino between 8 and 27 for comparison.</b></p>
+                                    <p>Scientist have found that dominoes have enough potential energy that they are able to knock down a domino that is 1.67 times its own size.  This is an illustration that shows how big the dominoes would be.</p>
+                                    <p><b>Pick a domino between 8 and 27 for comparison.</b></p>
                                 </div>
                                 <div ng-hide="hidden" style="height: 350px;">
                                     <h4 id="big-as">About as tall as:  

@@ -49,6 +49,7 @@ app.controller('main-ctrl',function($scope, $http){
     $scope.countDomino = function(n){
     	var x = domino(n-1);
     	if(n>8&&n<28){
+    		$scope.message = "";
 	    	$scope.result.nar=sizeCompare(compArr,n);
 	        $scope.result.height = "Height: "+inchesToFeet(x[0]);
 	        $scope.result.width = "Width: "+inchesToFeet(x[1]);
@@ -57,7 +58,7 @@ app.controller('main-ctrl',function($scope, $http){
     	}
     	else{
     		$scope.hidden=true;
-    		$scope.message = "Pick a number between 8 and 27 to see comparison.";
+    		$scope.message = "Pick between 8 and 27 for comparison";
     		$scope.result.height= "Height: "+inchesToFeet(x[0]);
     		$scope.result.width = "Width: "+inchesToFeet(x[1]);
 	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
