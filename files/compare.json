@@ -73,7 +73,7 @@
       "desc":"",
       "img": "imgs/17.png",
       "name":"Nimitz-Class Aircraft Carrier",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Nimitz-class_aircraft_carrier"
     },
     {
       "num":19,
@@ -87,55 +87,55 @@
       "desc":"",
       "img": "imgs/19.png",
       "name":"Burj Khalifa",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Burj_Khalifa"
     },
     {
       "num":21,
       "desc":"",
       "img": "imgs/20.png",
       "name":"Grand Canyon",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Grand_Canyon"
     },
     {
       "num":22,
       "desc":"",
       "img": "imgs/21.png",
       "name":"Soaring Eagle",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Eagle"
     },
     {
       "num":23,
       "desc":"",
       "img": "imgs/22.png",
       "name":"King's Peak",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Kings_Peak_(Utah)"
     },
     {
       "num":24,
       "desc":"",
       "img": "imgs/23.png",
       "name":"Mount Everest",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Mount_Everest"
     },
     {
       "num":25,
       "desc":"",
       "img": "imgs/24.png",
       "name":"Mariana Trench",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Mariana_Trench"
     },
     {
       "num":26,
       "desc":"",
       "img": "imgs/25.png",
       "name":"Earth's Atomsphere (sort of)",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Atmosphere_of_Earth"
     },
     {
       "num":27,
       "desc":"",
       "img": "imgs/26.png",
       "name":"Olympus Mons",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/Olympus_Mons"
     }
 ]
