@@ -26,7 +26,7 @@
                             </form>
                             
                             <div>
-                                <h4 class="alert alert-warning" ng-show="warningShow">{{message}}</h4>
+                                <h4 class="alert alert-warning text-center" ng-show="warningShow">{{message}}</h4>
                                 <h3>{{result.height}}</h3>
                                 <h3>{{result.width}}</h3>
                                 <h3>{{result.thick}}</h3>
@@ -36,11 +36,11 @@
                             <div class="well"> 
                                 <div ng-show="hidden">
                                     <h4><a href ="https://www.insidescience.org/content/dominoes-more-powerful-you-think/924">Growing Power of a Falling Domino</a></h4>
-                                    <p>Scientist have found that dominoes have enough potential energy that they are able to knock down a domino that is 1.67 times its own size.  This is an illustration that shows how big the dominoes would be.</p>
+                                    <p>Scientist have found that dominoes have enough potential energy to knock down a domino that is 1.67 times its own size.  This shows how big the dominoes would be.</p>
                                     <p><b>Pick a domino between 8 and 27 for comparison.</b></p>
                                 </div>
                                 <div ng-hide="hidden" style="height: 350px;">
-                                    <h4 id="big-as">About as tall as:  
+                                    <h4 id="big-as">About as high as:  
                                         <span><a ng-href="{{result.nar.link}}" target="_blank">{{result.nar.name}}</a></span>
                                     </h4>
                                     <p id="result-desc">

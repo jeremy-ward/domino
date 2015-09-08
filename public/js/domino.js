@@ -2,7 +2,7 @@
 function sizeCompare(compArr,n){
 	var x ={};
 	compArr.forEach(function(element){
-		if(element.num==n-1)
+		if(element.num==n)
 			x=element;
 	});
 	return x;
@@ -49,7 +49,7 @@ app.controller('main-ctrl',function($scope, $http){
     //function to get domino dimensions and pass them to view
     $scope.countDomino = function(n){
     	var x = domino(n-1);
-    	if(n>8&&n<28){
+    	if(n>7&&n<28){
     		$scope.message = "";
 	    	$scope.result.nar=sizeCompare(compArr,n);
 	        $scope.result.height = "Height: "+inchesToFeet(x[0]);

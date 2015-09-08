@@ -1,141 +1,141 @@
 [
     {
-      "num":7,
-      "desc":"Jeremy is not incredible tall, but the 7th domino would be 6ft tall, the same height as Jeremy",
+      "num":8,
+      "desc":"Jeremy is not incredible tall, but the 8th domino would be 6ft tall, the same height as Jeremy",
       "img": "imgs/7.png",
       "name":"Jeremy",
       "link":"http://jeremyward.xyz"
     },
     {
-      "num":8,
-      "desc":"A regulation basketball hoop stands 10 feet off the ground.  So would the 8th domino!",
+      "num":9,
+      "desc":"A regulation basketball hoop stands 10 feet off the ground.  So would the 9th domino!",
       "img": "imgs/8.png",
       "name":"Basketball Hoop",
       "link":"https://en.wikipedia.org/wiki/Basketball"
     },
     {
-      "num":9,
-      "desc":"Normal two-story houses are about 20 feet high, just a little higher than domino number 9",
+      "num":10,
+      "desc":"Normal two-story houses are about 20 feet high, just a little higher than domino number 10",
       "img": "imgs/9.png",
       "name":"Two-Story House",
       "link":"https://en.wikipedia.org/wiki/House"
     },
     {
-      "num":10,
-      "desc":"Semi-trailers come in many different lengths.  The shortest type is about 28 feet long, that is how tall domino number 10 would be.",
+      "num":11,
+      "desc":"Semi-trailers come in many different lengths.  The shortest type is about 28 feet long, that is how tall domino 11 would be.",
       "img": "imgs/10.png",
       "name":"Semi-Trailer",
       "link":"https://en.wikipedia.org/wiki/Semi-trailer"
     },{
-      "num":11,
-      "desc":"On March 20, 2002 McKay Dee open a new hospital, the first baby was born at the new hospital at 11:59 a.m. The new hospital stands around 50 feet, just a few feet higher than the 11th domino.",
+      "num":12,
+      "desc":"On March 20, 2002 McKay Dee opened a new hospital, the first baby was born at the new hospital at 11:59 a.m. The new hospital stands around 50 feet, just a few feet higher than the 12th domino.",
       "img": "imgs/11.png",
       "name":"McKay-Dee Hospital",
       "link":"https://en.wikipedia.org/wiki/McKay-Dee_Hospital"
     },
     {
-      "num":12,
-      "desc":"The Market Start Buiding in downtown Ogden certainly isn't the building in Ogden, but it is still tall.  It stands at 76 feet tall, which is just short than domino 12.",
+      "num":13,
+      "desc":"The Market Start Buiding in downtown Ogden certainly isn't the tallest building in Ogden, but it is still tall.  It stands at 76 feet tall, which is just a bit shorter than domino 13.",
       "img": "imgs/12.png",
       "name":"Market Star Building",
       "link":"http://www.emporis.com/buildings/323796/marketstar-building-ogden-ut-usa"
     },
     {
-      "num":13,
-      "desc":"The Boeing 737 is the best-selling jet in the world.  It has multiple models that hold up to 215 people.  One model is 130 feet long, almost exactly the height of the 13th domino",
+      "num":14,
+      "desc":"The Boeing 737 is the best-selling jet in the world.  It has multiple models that hold up to 215 people.  One model is 130 feet long, almost exactly the height of the 14th domino",
       "img": "imgs/13.png",
       "name":"Boeing 737",
       "link":"https://en.wikipedia.org/wiki/Boeing_737"
     },
     {
-      "num":14,
+      "num":15,
       "desc":"",
       "img": "imgs/14.png",
       "name":"Salt Lake Temple",
       "link":"https://en.wikipedia.org/wiki/Salt_Lake_Temple"
     },
     {
-      "num":15,
+      "num":16,
       "desc":"",
       "img": "imgs/15.png",
       "name":"Coastal Redwood",
       "link":"https://en.wikipedia.org/wiki/Sequoia_sempervirens"
     },
     {
-      "num":16,
-      "desc":"The Space Needle was built in 1962 for the 1962 World Fair and is the tallest building west of the Mississippi.  It stands at 605 feet tall, the 16th domino would be just a hair bigger than this restuarant in the sky",
+      "num":17,
+      "desc":"The Space Needle was built in 1962 for the 1962 World Fair and is the tallest building west of the Mississippi.  It stands at 605 feet tall, the 17th domino would be just a hair bigger than this restuarant in the sky",
       "img": "imgs/16.png",
       "name":"Seattle Space Needle",
       "link":"https://en.wikipedia.org/wiki/Space_Needle"
     },
     {
-      "num":17,
-      "desc":"",
-      "img": "imgs/17.png",
-      "name":"",
-      "link":""
-    },
-    {
       "num":18,
       "desc":"",
-      "img": "imgs/18.png",
-      "name":"",
+      "img": "imgs/17.png",
+      "name":"Nimitz-Class Aircraft Carrier",
       "link":""
     },
     {
       "num":19,
       "desc":"",
-      "img": "imgs/19.png",
-      "name":"",
+      "img": "imgs/18.png",
+      "name":"One World Trade Center",
       "link":""
     },
     {
       "num":20,
       "desc":"",
-      "img": "imgs/20.png",
-      "name":"",
+      "img": "imgs/19.png",
+      "name":"Burj Khalifa",
       "link":""
     },
     {
       "num":21,
       "desc":"",
-      "img": "imgs/21.png",
-      "name":"",
+      "img": "imgs/20.png",
+      "name":"Grand Canyon",
       "link":""
     },
     {
       "num":22,
       "desc":"",
-      "img": "imgs/22.png",
-      "name":"",
+      "img": "imgs/21.png",
+      "name":"Soaring Eagle",
       "link":""
     },
     {
       "num":23,
       "desc":"",
-      "img": "imgs/23.png",
-      "name":"",
+      "img": "imgs/22.png",
+      "name":"King's Peak",
       "link":""
     },
     {
       "num":24,
       "desc":"",
-      "img": "imgs/24.png",
-      "name":"",
+      "img": "imgs/23.png",
+      "name":"Mount Everest",
       "link":""
     },
     {
       "num":25,
       "desc":"",
-      "img": "imgs/25.png",
-      "name":"",
+      "img": "imgs/24.png",
+      "name":"Mariana Trench",
       "link":""
     },
     {
       "num":26,
       "desc":"",
+      "img": "imgs/25.png",
+      "name":"Earth's Atomsphere (sort of)",
+      "link":""
+    },
+    {
+      "num":27,
+      "desc":"",
       "img": "imgs/26.png",
-      "name":"",
+      "name":"Olympus Mons",
       "link":""
     }
 ]
