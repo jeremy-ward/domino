@@ -2,13 +2,6 @@
 module.exports=function(app){
     //===Main route==============
         app.get("/",function(req, res) {
-           res.redirect('/domino');
+           res.render('/domino');
         });
-    
-    //===Domino Route============
-        app.get("/domino", function(req, res){
-          res.render('domino.ejs');
-        });
-        
-
 }
