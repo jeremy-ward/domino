@@ -37,6 +37,7 @@ app.controller('main-ctrl',function($scope, $http){
     $scope.result={};
     var compArr=[];
     $scope.hidden=true;
+    $scope.warningShow=false;
     //get the comparison JSON file
     $http.get("/api/domino")
     	.success(function(data){
@@ -55,10 +56,12 @@ app.controller('main-ctrl',function($scope, $http){
 	        $scope.result.width = "Width: "+inchesToFeet(x[1]);
 	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
 	        $scope.hidden=false;
+	        $scope.warningShow=false;
     	}
     	else{
     		$scope.hidden=true;
-    		$scope.message = "Pick between 8 and 27 for comparison";
+    		$scope.warningShow=true;
+    		$scope.message = "Pick 8-27 for comparison";
     		$scope.result.height= "Height: "+inchesToFeet(x[0]);
     		$scope.result.width = "Width: "+inchesToFeet(x[1]);
 	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
