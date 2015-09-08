@@ -1,7 +1,7 @@
 [
     {
       "num":8,
-      "desc":"Jeremy is not incredible tall, but the 8th domino would be 6ft tall, the same height as Jeremy",
+      "desc":"Jeremy is not incredibly tall, but the 8th domino would be 6ft tall, the same height as Jeremy",
       "img": "imgs/7.png",
       "name":"Jeremy",
       "link":"http://jeremyward.xyz"
@@ -80,7 +80,7 @@
       "desc":"",
       "img": "imgs/18.png",
       "name":"One World Trade Center",
-      "link":""
+      "link":"https://en.wikipedia.org/wiki/One_World_Trade_Center"
     },
     {
       "num":20,
