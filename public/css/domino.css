@@ -6,6 +6,9 @@
 #main-container{
     margin-top: 30px;
 }
+.jumbotron{
+    background-image:url("imgs/domino-falling.png");
+}
 #big-as span{
     font-size: 1.5em;
     font-weight: bold;

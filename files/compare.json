@@ -1,7 +1,7 @@
 [
     {
       "num":8,
-      "desc":"Jeremy is not incredibly tall, but the 8th domino would be 6ft tall, the same height as Jeremy",
+      "desc":"Jeremy is not incredibly tall, but the 8th domino would be 6ft tall, the same height as Jeremy.",
       "img": "imgs/7.png",
       "name":"Jeremy",
       "link":"http://jeremyward.xyz"
@@ -15,7 +15,7 @@
     },
     {
       "num":10,
-      "desc":"Normal two-story houses are about 20 feet high, just a little higher than domino number 10",
+      "desc":"Normal two-story houses are about 20 feet high, just a little higher than domino number 10.",
       "img": "imgs/9.png",
       "name":"Two-Story House",
       "link":"https://en.wikipedia.org/wiki/House"
@@ -28,14 +28,14 @@
       "link":"https://en.wikipedia.org/wiki/Semi-trailer"
     },{
       "num":12,
-      "desc":"On March 20, 2002 McKay Dee opened a new hospital, the first baby was born at the new hospital at 11:59 a.m. The new hospital stands around 50 feet, just a few feet higher than the 12th domino.",
+      "desc":"On March 20, 2002 McKay Dee opened a new hospital, the first baby was born at the new hospital at 11:59 a.m. The new hospital's doctor office wing stands around 50 feet, just a few feet higher than the 12th domino.",
       "img": "imgs/11.png",
       "name":"McKay-Dee Hospital",
       "link":"https://en.wikipedia.org/wiki/McKay-Dee_Hospital"
     },
     {
       "num":13,
-      "desc":"The Market Start Buiding in downtown Ogden certainly isn't the tallest building in Ogden, but it is still tall.  It stands at 76 feet tall, which is just a bit shorter than domino 13.",
+      "desc":"The Market Start Building in down-town Ogden certainly isn't the tallest building in Ogden, but it is still tall.  It stands at 76 feet tall, which is just a bit shorter than domino 13.",
       "img": "imgs/12.png",
       "name":"Market Star Building",
       "link":"http://www.emporis.com/buildings/323796/marketstar-building-ogden-ut-usa"
@@ -49,14 +49,14 @@
     },
     {
       "num":15,
-      "desc":"",
+      "desc":"The location for the Salt Lake Temple was marked by President Young on July 28, 1847; only 4 days after they arrived.  Construction officially began on April 6, 1853.  After 40 years the temple was dedicated on April 6, 1893; exactly 40 years after construction began.  For years it was the tallest building in Utah and stands at 210 feet, which is just shorter than the 15th domino.",
       "img": "imgs/14.png",
       "name":"Salt Lake Temple",
       "link":"https://en.wikipedia.org/wiki/Salt_Lake_Temple"
     },
     {
       "num":16,
-      "desc":"",
+      "desc":"The Coastal Redwood or Sequoia sempervirens is the largest tree in the world.  They grow only in the US in Northern California and Southern Oregon.  They are giants!  They can grow up to 379 feet and have trunks that are 30 feet in diameter.  Domino 16 would be just a little smaller than these giants.",
       "img": "imgs/15.png",
       "name":"Coastal Redwood",
       "link":"https://en.wikipedia.org/wiki/Sequoia_sempervirens"
@@ -70,70 +70,70 @@
     },
     {
       "num":18,
-      "desc":"",
+      "desc":"Currently the largest warship in the world, these carriers hold almost 100 fighter jets, over 5,000 people and only have to refuel once every 20 years.  They are 1,092 feet long, which is about the height of domino number 18.",
       "img": "imgs/17.png",
       "name":"Nimitz-Class Aircraft Carrier",
       "link":"https://en.wikipedia.org/wiki/Nimitz-class_aircraft_carrier"
     },
     {
       "num":19,
-      "desc":"",
+      "desc":"Opening in New York City in 2014, the One World Trade Center is the tallest building in the USA, and 4th tallest in the world.  It stands at 1,776 feet, over 300 feet taller than the Empire State Building.  The 19th domino would taller than this building without its spire!",
       "img": "imgs/18.png",
       "name":"One World Trade Center",
       "link":"https://en.wikipedia.org/wiki/One_World_Trade_Center"
     },
     {
       "num":20,
-      "desc":"",
+      "desc":"Located in Dubai, Burj Khalifa is the tallest building in the world.  It stands at a whooping 2,722 feet high, 700 feet taller than any other building.  Crazy thing is that the 20th domino would be 100 feet taller than this enormous building.",
       "img": "imgs/19.png",
       "name":"Burj Khalifa",
       "link":"https://en.wikipedia.org/wiki/Burj_Khalifa"
     },
     {
       "num":21,
-      "desc":"",
+      "desc":"The deepest canyon on planet Earth is the Grand Canyon in Arizona, USA., its depth greatly varies and is deeper than a mile in some places.  The average depth of this canyon is about 4,500 feet, and domino 21 would stick out of the top of the canyon!",
       "img": "imgs/20.png",
       "name":"Grand Canyon",
       "link":"https://en.wikipedia.org/wiki/Grand_Canyon"
     },
     {
       "num":22,
-      "desc":"",
+      "desc":"Eagles can fly really high, some claim to have seen them fly as high as airplanes.  However, the highest they are usually spotted is around 8,000 feet.  Domino 22 would be a great spot for a soaring eagle to perch.",
       "img": "imgs/21.png",
       "name":"Soaring Eagle",
       "link":"https://en.wikipedia.org/wiki/Eagle"
     },
     {
       "num":23,
-      "desc":"",
+      "desc":"Located in the Uinta Mountain range in northeastern Utah, Kings Peak is the highest point in the state.  It stands 13,528 feet above sea-level, the 23rd domino would be able the same height.",
       "img": "imgs/22.png",
-      "name":"King's Peak",
+      "name":"Kings Peak",
       "link":"https://en.wikipedia.org/wiki/Kings_Peak_(Utah)"
     },
     {
       "num":24,
-      "desc":"",
+      "desc":"Mount Everest is the highest point on planet Earth, it rises 29,029 feet above sea-level.  The first successful summit was made on May 29, 1953 by Edmund Hillary of New Zealand and Tenzing Norgay of Nepal.  Domino 24 would not be quite as tall as Everest but it would be really close.",
       "img": "imgs/23.png",
       "name":"Mount Everest",
       "link":"https://en.wikipedia.org/wiki/Mount_Everest"
     },
     {
       "num":25,
-      "desc":"",
+      "desc":"The lowest place on Earth is a deep sea canyon in the Pacific ocean near the Philippines.  The Mariana Trench is about 36,000 feet below sea-level at its deepest, and is full of very interest life.  The 25th domino would stick out of the ocean if you rested it at the bottom of this trench.",
       "img": "imgs/24.png",
       "name":"Mariana Trench",
       "link":"https://en.wikipedia.org/wiki/Mariana_Trench"
     },
     {
       "num":26,
-      "desc":"",
+      "desc":"The Earth's atmosphere is a collection of gases that 'stick' to earth because of its gravity.  It is almost impossible to determine where it ends, it just gets thinner and thinner.  However the majority of the atmosphere is within 53,000 feet of the planet's surface.  So domino 26 would kind of be in outer space.",
       "img": "imgs/25.png",
-      "name":"Earth's Atomsphere (sort of)",
+      "name":"Earth's Atmosphere (sort of)",
       "link":"https://en.wikipedia.org/wiki/Atmosphere_of_Earth"
     },
     {
       "num":27,
-      "desc":"",
+      "desc":"The largest mountain in the solar system is Olympus Mons located on Mars.  Its base is as wide as the country France and it stands 88,600 feet tall, or about 16 miles.  The 28th domino would be much taller than the highest point in the solar system!",
       "img": "imgs/26.png",
       "name":"Olympus Mons",
       "link":"https://en.wikipedia.org/wiki/Olympus_Mons"
