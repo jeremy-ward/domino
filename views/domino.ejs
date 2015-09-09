@@ -27,6 +27,7 @@
                             
                             <div>
                                 <h4 class="alert alert-warning text-center" ng-show="warningShow">{{message}}</h4>
+                                <h2 class="text-center">{{result.message}}</h2>
                                 <h3>{{result.height}}</h3>
                                 <h3>{{result.width}}</h3>
                                 <h3>{{result.thick}}</h3>
@@ -37,8 +38,13 @@
                                 <div ng-show="hidden">
                                     <h3 class="text-center"><a href ="https://www.insidescience.org/content/dominoes-more-powerful-you-think/924">Growing Power of a Falling Domino</a></h3>
                                     <br/>
-                                    <p>Welcome Fellow Scientist</p>
-                                    <p>Scientists have discovered that dominoes have enough potential energy to knock down a domino that is 1.67 times its own size.  Pick a number of dominoes to see how big the last domino could be.</p>
+                                    <p><img class="sample-img" align="right" src="imgs/domino-falling.png"/>
+                                        <em>Welcome Fellow Scientist</em>
+                                    </p>
+                                    <p>
+                                        Scientists have discovered that dominoes have enough potential energy to knock down a domino that is 1.67 times its own size.  Pick a number of dominoes to see how big the last domino could be. 
+                                    </p>
+                                    <p>The blue text titles are links to learn more.</p>
                                     <p><b>Pick a domino between 8 and 27 for comparison.</b></p>
                                 </div>
                                 <div ng-hide="hidden" style="height: 350px;">
@@ -46,7 +52,7 @@
                                         <span><a ng-href="{{result.nar.link}}" target="_blank">{{result.nar.name}}</a></span>
                                     </h4>
                                     <p id="result-desc">
-                                        <img align="left" style="max-height: 300px; max-width:300px; padding: 20px;" ng-src="{{result.nar.img}}">
+                                        <img class="sample-img" align="left" ng-src="{{result.nar.img}}">
                                         {{result.nar.desc}}
                                     </p>
                                 </div>

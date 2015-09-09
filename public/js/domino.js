@@ -28,7 +28,21 @@ function inchesToFeet(num, decimal){
 	if(isNaN(decimal))
 		decimal=0;
 	var x=num>12?(num/12).toFixed(decimal):num.toFixed(decimal);
-	return numberFormat(x)+(num>12?" Feet":" Inches");
+	
+	if(num>12&&x<=1){
+		var y =" Foot";
+	}
+	else if(num>12){
+		var y=" Feet"
+	}
+	else if(x<=1){
+		var y=" Inch"
+	}
+	else{
+		var y=" Inches"
+	}
+	x=x<1?"<1":numberFormat(x);
+	return x+y;
 }
 
 var app = angular.module('main-app',[]);
@@ -52,9 +66,10 @@ app.controller('main-ctrl',function($scope, $http){
     	if(n>7&&n<28){
     		$scope.message = "";
 	    	$scope.result.nar=sizeCompare(compArr,n);
-	        $scope.result.height = "Height: "+inchesToFeet(x[0]);
-	        $scope.result.width = "Width: "+inchesToFeet(x[1]);
-	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
+    		$scope.result.message="Domino "+ n + " could be:";
+	        $scope.result.height = inchesToFeet(x[0])+" Tall";
+	        $scope.result.width = inchesToFeet(x[1])+" Wide";
+	        $scope.result.thick = inchesToFeet(x[2])+" Thick";
 	        $scope.hidden=false;
 	        $scope.warningShow=false;
     	}
@@ -62,9 +77,10 @@ app.controller('main-ctrl',function($scope, $http){
     		$scope.hidden=true;
     		$scope.warningShow=true;
     		$scope.message = "Pick 8-27 for comparison";
-    		$scope.result.height= "Height: "+inchesToFeet(x[0]);
-    		$scope.result.width = "Width: "+inchesToFeet(x[1]);
-	        $scope.result.thick = "Thickness: "+inchesToFeet(x[2]);
+    		$scope.result.message="Domino "+ n + " could be:";
+    		$scope.result.height = inchesToFeet(x[0])+" Tall";
+	        $scope.result.width = inchesToFeet(x[1])+" Wide";
+	        $scope.result.thick = inchesToFeet(x[2])+" Thick";
     	}
     }
 });

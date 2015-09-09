@@ -1,7 +1,7 @@
 [
     {
       "num":8,
-      "desc":"Jeremy is not incredibly tall, but the 8th domino would be 6ft tall, the same height as Jeremy.",
+      "desc":"Jeremy is not incredibly tall, but the 8th domino would be 6 feet tall, the same height as Jeremy.",
       "img": "imgs/7.png",
       "name":"Jeremy",
       "link":"http://jeremyward.xyz"
@@ -28,14 +28,14 @@
       "link":"https://en.wikipedia.org/wiki/Semi-trailer"
     },{
       "num":12,
-      "desc":"On March 20, 2002 McKay Dee opened a new hospital, the first baby was born at the new hospital at 11:59 a.m. The new hospital's doctor office wing stands around 50 feet, just a few feet higher than the 12th domino.",
+      "desc":"On March 20, 2002 McKay Dee opened a new hospital, the first baby was born at the new hospital at 11:59 a.m. The new hospital's doctors' office wing stands around 50 feet, just a few feet higher than the 12th domino.",
       "img": "imgs/11.png",
       "name":"McKay-Dee Hospital",
       "link":"https://en.wikipedia.org/wiki/McKay-Dee_Hospital"
     },
     {
       "num":13,
-      "desc":"The Market Start Building in down-town Ogden certainly isn't the tallest building in Ogden, but it is still tall.  It stands at 76 feet tall, which is just a bit shorter than domino 13.",
+      "desc":"The Market Start Building certainly isn't the tallest building in Ogden, but it is still tall.  It stands at 76 feet tall, which is just a bit shorter than domino 13.",
       "img": "imgs/12.png",
       "name":"Market Star Building",
       "link":"http://www.emporis.com/buildings/323796/marketstar-building-ogden-ut-usa"
@@ -49,7 +49,7 @@
     },
     {
       "num":15,
-      "desc":"The location for the Salt Lake Temple was marked by President Young on July 28, 1847; only 4 days after they arrived.  Construction officially began on April 6, 1853.  After 40 years the temple was dedicated on April 6, 1893; exactly 40 years after construction began.  For years it was the tallest building in Utah and stands at 210 feet, which is just shorter than the 15th domino.",
+      "desc":"The location for the Salt Lake Temple was marked by President Young on July 28, 1847; 4 days after they arrived.  Construction began on April 6, 1853.  After 40 years it was dedicated on April 6, 1893; exactly 40 years after construction began.  For years it was the tallest building in Utah and stands at 210 feet, which is just shorter than the 15th domino.",
       "img": "imgs/14.png",
       "name":"Salt Lake Temple",
       "link":"https://en.wikipedia.org/wiki/Salt_Lake_Temple"
@@ -91,7 +91,7 @@
     },
     {
       "num":21,
-      "desc":"The deepest canyon on planet Earth is the Grand Canyon in Arizona, USA., its depth greatly varies and is deeper than a mile in some places.  The average depth of this canyon is about 4,500 feet, and domino 21 would stick out of the top of the canyon!",
+      "desc":"The deepest canyon on planet Earth is the Grand Canyon in Arizona, USA. Its depth greatly varies and is deeper than a mile in some places.  The average depth of this canyon is about 4,500 feet, and domino 21 would stick out of the top of the canyon!",
       "img": "imgs/20.png",
       "name":"Grand Canyon",
       "link":"https://en.wikipedia.org/wiki/Grand_Canyon"
@@ -105,21 +105,21 @@
     },
     {
       "num":23,
-      "desc":"Located in the Uinta Mountain range in northeastern Utah, Kings Peak is the highest point in the state.  It stands 13,528 feet above sea-level, the 23rd domino would be able the same height.",
+      "desc":"Located in the Uinta Mountain range in northeastern Utah, Kings Peak is the highest point in the state.  It stands 13,528 feet above sea-level, the 23rd domino would be about the same height.",
       "img": "imgs/22.png",
       "name":"Kings Peak",
       "link":"https://en.wikipedia.org/wiki/Kings_Peak_(Utah)"
     },
     {
       "num":24,
-      "desc":"Mount Everest is the highest point on planet Earth, it rises 29,029 feet above sea-level.  The first successful summit was made on May 29, 1953 by Edmund Hillary of New Zealand and Tenzing Norgay of Nepal.  Domino 24 would not be quite as tall as Everest but it would be really close.",
+      "desc":"Mount Everest is the highest point on Earth, it rises 29,029 feet above sea-level.  The first successful summit was made on May 29, 1953 by Edmund Hillary of New Zealand and Tenzing Norgay of Nepal.  Domino 24 would not be quite as tall as Everest but it would be really close.",
       "img": "imgs/23.png",
       "name":"Mount Everest",
       "link":"https://en.wikipedia.org/wiki/Mount_Everest"
     },
     {
       "num":25,
-      "desc":"The lowest place on Earth is a deep sea canyon in the Pacific ocean near the Philippines.  The Mariana Trench is about 36,000 feet below sea-level at its deepest, and is full of very interest life.  The 25th domino would stick out of the ocean if you rested it at the bottom of this trench.",
+      "desc":"The lowest place on Earth is a deep sea canyon in the Pacific ocean near the Philippines.  The Mariana Trench is about 36,000 feet below sea-level at its deepest, and is full of very interesting life.  The 25th domino would stick out of the ocean if you rested it at the bottom of this trench.",
       "img": "imgs/24.png",
       "name":"Mariana Trench",
       "link":"https://en.wikipedia.org/wiki/Mariana_Trench"
